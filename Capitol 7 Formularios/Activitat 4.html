@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)http://127.0.0.1:5500/Activitat1.html -->
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<html>
+<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buscar Cámaras de Fotos</title>
+        <style>
+          label {
+            display: block;
+            margin-bottom: 10px;
+          }
+      
+          input[type="text"],
+          select {
+            width: 100%;
+            padding: 5px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+          }
+      
+          input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+          }
+      
+          input[type="submit"]:hover {
+            background-color: #555;
+          }
+        </style>
+      </head>
+      <body>
+        <h1>Buscar Cámaras de Fotos</h1>
+        <form>
+          <label for="marca">Marca:</label>
+          <input type="text" id="marca" name="marca" placeholder="Ingrese la marca de la cámara">
+      
+          <label for="modelo">Modelo:</label>
+          <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo de la cámara">
+      
+          <label for="megapixeles">Megapíxeles:</label>
+          <input type="text" id="megapixeles" name="megapixeles" placeholder="Ingrese la cantidad de megapíxeles">
+      
+          <label for="precio">Precio:</label>
+          <input type="text" id="precio" name="precio" placeholder="Ingrese el rango de precio">
+      
+          <label for="tipo">Tipo:</label>
+          <select id="tipo" name="tipo">
+            <option value="">Seleccione el tipo de cámara</option>
+            <option value="compacta">Compacta</option>
+            <option value="réflex">Réflex</option>
+            <option value="mirrorless">Mirrorless</option>
+          </select>
+      
+          <input type="submit" value="Buscar">
+        </form>
+      
+</body>
+      

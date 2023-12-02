@@ -1,0 +1,47 @@
+body > p > span:nth-child(1) {
+    font-weight: bold;
+}
+
+body > p > span:nth-child(2) {
+    color: yellow;
+}
+
+body > p > span:nth-child(3) {
+    font-weight: bold;
+}
+
+body > p > span:nth-child(4) {
+    color: yellow;
+}
+
+body > p > span:nth-child(5) {
+    background-color: blue;
+    color: white;
+}
+
+body > p > span:nth-child(6) {
+    background-color: blue;
+    color: white;
+}
+
+body > p > span:nth-child(7) {
+    color: pink;
+}
+
+body > p > span:nth-child(8) {
+    color: pink;
+}
+
+body > p > span:nth-child(9) {
+    color: pink;
+}
+
+body > p > span:nth-child(10) {
+    background-color: blue;
+    color: white;
+}
+
+body > p > span:nth-child(11) {
+    background-color: green;
+    color: white;
+}

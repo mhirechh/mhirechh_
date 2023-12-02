@@ -1,0 +1,8 @@
+p {
+    font-size: 3em;
+}
+
+strong {
+    text-decoration: underline;
+    background-color: rgb(255, 0, 0);
+}

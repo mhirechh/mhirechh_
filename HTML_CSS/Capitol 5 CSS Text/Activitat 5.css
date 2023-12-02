@@ -1,0 +1,22 @@
+body {
+    color:rgb(0, 0, 0);
+    font-size: 2em;
+}
+
+body > p:nth-child(1) > span {
+    font-weight: bold;
+    color: black;
+}
+
+.texto {
+    text-transform: uppercase;
+}
+
+body > p.texto > span:nth-child(1) {
+    font-weight: bold;
+    color: black;
+}
+
+body > p.texto > span:nth-child(2) {
+    background-color: yellow;
+}

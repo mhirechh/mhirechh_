@@ -1,0 +1,7 @@
+p {
+    background-color: rgb(213, 0, 220);
+    max-height: 10em;
+    min-height: 5em;
+    font-size: 2em;
+    overflow: hidden;
+}

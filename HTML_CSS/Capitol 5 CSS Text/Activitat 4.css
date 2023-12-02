@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Doctor;
+    font-size: 4.15em;
+    src: local('PTSans'), local('PTSans-Regular'), url(https://www.dafont.com/es/doctor-glitch.font.woff2) format('woff2');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: urban;
+    font-size: 3em;
+    src: local(basketball), local('basketball-Regular'), url(https://www.dafont.com/es/urban-jungle.font2) format ('woff2');
+    font-style: normal;
+}
+
+.Doctor {
+    font-family: Doctor;
+}
+
+.basketball {
+    font-family: urban;
+}

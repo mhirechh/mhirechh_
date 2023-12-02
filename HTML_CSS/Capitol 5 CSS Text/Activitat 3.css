@@ -1,0 +1,63 @@
+.centrado { 
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    letter-spacing: 0.2em;
+}
+
+.centrado:hover {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: Helvetica, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 0.2em;
+    color: blue;
+}
+
+.morado {
+    text-align: center;
+    font-size: 1.20em;
+    font-weight: 100;
+    font-style: italic;
+    word-spacing: 0.5em;
+}
+
+.estirado {
+    text-align: center;
+    font-size: 1.06em;
+    font-weight: 100;
+    font-style: initial;
+    text-transform: uppercase;
+}
+
+.estirado:hover {
+    text-align: center;
+    font-size: 1.06em;
+    font-weight: bold;
+    font-style: inherit;
+    text-transform: uppercase;
+    color: red;
+}
+
+.letra {
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 2em;
+}
+
+.cambiar {
+    text-align: justify;
+    font-size: 1.5em;
+    font-weight: 200;
+    font-style: normal;
+    margin-left: 30%;
+    margin-right: 30%;
+    line-height: 2em;
+}

@@ -1,0 +1,20 @@
+h1 {
+    font-size: 4em;
+    font: bold;
+    display: flex;
+    justify-content: left;
+    margin-top: -0.1%;
+}
+
+p {
+    font-size: 2em;
+    display: flex;
+    margin-top: -3%;
+}
+
+h2 {
+    font-size: 3em;
+    font: bold;
+    display: flex;
+    margin-top: 30%;
+}

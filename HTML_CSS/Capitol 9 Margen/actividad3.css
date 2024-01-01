@@ -1,0 +1,28 @@
+header {
+    background-color: black;
+    padding: 1.5em;
+}
+
+.barra {
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.barra li {
+    margin-right: 1em;
+    float: right;
+}
+
+.barra li:last-child {
+    margin-right: 0;
+}
+
+.barra li a {
+    text-decoration: none;
+    color:bisque;
+    padding: 1em;
+    border-radius: 0.5em;
+}

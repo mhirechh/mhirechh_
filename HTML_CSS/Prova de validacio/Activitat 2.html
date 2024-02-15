@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buscador de Smartphones</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+    
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Buscador de Smartphones</h1>
+  
+  <label for="marca">Marca:</label>
+  <input type="text" id="marca" list="marcas">
+  <datalist id="marcas">
+    <option value="Apple">
+    <option value="Samsung">
+    <option value="Huawei">
+    <option value="Xiaomi">
+  </datalist>
+  
+  <label for="precio">Precio:</label>
+  <select id="precio">
+    <option value="">Todos los rangos</option>
+    <option value="0-200">$0 - $200</option>
+    <option value="200-500">$200 - $500</option>
+    <option value="500-1000">$500 - $1000</option>
+    <option value="1000+">Más de $1000</option>
+  </select>
+  
+  <button onclick="buscarSmartphones()">Buscar</button>
+  
+  <script>
+    function buscarSmartphones() {
+      var marca = document.getElementById("marca").value;
+      var precio = document.getElementById("precio").value;
+      console.log("Marca seleccionada:", marca);
+      console.log("Precio seleccionado:", precio);
+    }
+  </script>
+</body>
+</html>

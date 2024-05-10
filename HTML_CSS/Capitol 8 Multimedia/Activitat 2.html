@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,6 +17,7 @@
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
+      position: left;
     }
 
     h1 {
@@ -28,10 +30,11 @@
       position: relative;
       padding-bottom: 56.25%;
       height: 0;
+      text-align: center;
     }
 
     .video-wrapper iframe {
-      position: absolute;
+      position: static;
       top: 0;
       left: 0;
       width: 100%;
@@ -43,7 +46,8 @@
       border-collapse: collapse;
     }
 
-    th, td {
+    th,
+    td {
       padding: 10px;
       text-align: left;
       border-bottom: 1px solid #000000;
@@ -52,16 +56,21 @@
     th {
       background-color: #f2f2f2;
     }
+    center{
+      width:100px;
+      margin:10% auto;
+      align: center;
+    }
   </style>
 </head>
+
 <body>
-  <div class="container">
+  <div class="center">
     <h1>Fast and Furious 10</h1>
-
-    <div class="video-wrapper">
-      <iframe width="760" height="15" src="https://www.youtube.com/watch?v=BLKaI3D9P2E" frameborder="0" allowfullscreen></iframe>
-    </div>
-
+    <video src="/HTML_CSS/Capitol 8 Multimedia/Walkaround_A3_PA_Sportback_AU380_1920x1920_1.mp4" width="1500"
+      height="550" autoplay loop muted="muted"></video>
+  </div>
+    <div class="container">
     <table>
       <tr>
         <th>Título</th>
@@ -82,4 +91,5 @@
     </table>
   </div>
 </body>
+
 </html>

@@ -1,0 +1,118 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    background-color: #000000;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 10px;
+    color: white;
+}
+
+nav ul li.logo {
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.style1, .style2, .style3, .style4, .style5 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.style1 {
+    background-color: rgb(214, 73, 7);
+}
+
+.style2 {
+    background-color: rgb(17, 255, 0);
+}
+
+.style3 {
+    background-color: rgba(128, 11, 0, 0.666);
+}
+
+.style4 {
+    background-color: rgb(176, 176, 16);
+}
+
+.style5 {
+    background-color: rgb(177, 12, 223);
+}
+
+
+#sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+#sidebar h1 {
+    margin-bottom: 20px;
+}
+
+.text-field {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+}
+
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

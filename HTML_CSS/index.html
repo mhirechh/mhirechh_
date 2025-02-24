@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="/css.css">
+</head>
+<style>
+    header {
+        text-align: center;
+        background-color: #fffefe;
+        padding: 20px;
+    }
+
+    header img {
+        width: 200px;
+        height: auto;
+        border-radius: 0;
+        float: left;
+        margin-right: 10px;
+    }
+
+
+    header h1 {
+        font-size: 30px;
+        display: inline;
+        margin: 0;
+    }
+
+
+    .Navegación {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: #ffffff;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .Navegación2 {
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        background-color: #F9F9F9;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .Navegación2 li a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+        margin: 0;
+    }
+
+
+    .Navegación2 li a:hover {
+        background-color: #ff0000;
+        color: #F9F9F9;
+    }
+
+    .Navegación li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px;
+        padding: 5px 10px;
+        border-radius: 5px;
+    }
+
+
+    .Navegación li a:hover {
+        background-color: #000000;
+        color: #F9F9F9;
+    }
+
+
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+
+    .Horizontal {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .column {
+        width: 50%;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .column a {
+        font-size: 1.5em;
+        font-style: oblique;
+        display: block;
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: #000000;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .column a:hover {
+        background-color: #ff0000;
+    }
+
+    footer {
+        text-align: center;
+        font-size: 14px;
+        color: #000000;
+        margin-top: 20px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+    }
+
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff width: 200px;
+        height: auto;
+        border-radius: 0;
+        margin-right: 10px;
+
+    }
+
+    h1 {
+        text-align: left;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    .video-wrapper {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+    }
+
+    .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th,
+    td {
+        padding: 10px;
+        text-align: left;
+        border-bottom: 1px solid #000000;
+        color: #000000
+    }
+
+    th {
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+    }
+
+    .formulario {
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+    }
+
+    .formulario3 {
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+    }
+
+
+    .formulario2 {
+        background-color: #ffffff;
+        text-align: center;
+        color: #000000;
+        flex: auto;
+
+    }
+
+    center {
+        width: 1000px;
+        margin: 0px auto;
+    }
+
+    a.button {
+        -webkit-appearance: button;
+        -moz-appearance: button;
+        appearance: button;
+
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        border: #091ab4 3px solid;
+        border-radius: 6px;
+        border-color: #091ab4;
+        border-style: outset;
+        text-align: center;
+        width: 200px;
+    }
+
+    .episode {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .episode2 {
+        display: left;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+
+    .episode-player {
+        display: flex;
+        flex-direction: column;
+        width: 620px;
+        margin-left: 95px;
+    }
+
+    .episode-player2 {
+        display: right;
+        flex-direction: column;
+        width: 620px;
+        margin-left: 95px;
+    }
+
+    .dropdown {
+        display: inline-block;
+        position: relative;
+        font-size: 18px;
+        align-items: center;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: visible;
+        box-shadow: 0px 10px 10px 0px rgba(255, 250, 250, 0.4);
+
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown-content a {
+        display: block;
+        color: #ffffff;
+        padding: 5px;
+        text-decoration: none;
+    }
+
+    .dropdown-content a:hover {
+        color: #000000;
+        background-color: #e7e7e7;
+    }
+
+    #galeria {
+        margin: 1rem auto;
+        width: 100%;
+        max-width: 960px;
+        column-count: 3;
+    }
+
+    h4 {
+        color: #ffffff;
+    }
+
+    .dody {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .catalogo {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .catalogo2 {
+        display: flex;
+        justify-content: center;
+        -ms-flex-align: center;
+    }
+
+    .product {
+        text-align: center;
+        margin: 20px;
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .product2 {
+        text-align: center;
+        margin: 35px;
+        max-width: 300px;
+        flex-direction: row;
+    }
+
+    .product img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    <nav>
+        <ul class="Navegación">
+            <li><a href="/Importaco.html">HOME</a></li>
+            <li><a href="/Configurador.html">Configurador</a></li>
+            <li><a href="/Modelos.html">Modelos</a></li>
+            <li><a href="/Productos.html">Productos</a></li>
+            <li><a href="/puntosdeventa.html">Puntos de venta</a></li>
+            <li><a href="/Nosotros.html">Nosotros</a></li>
+            <li><a href="inicio.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <h1 class="h1">¡En promoción! No esperes para estrenar tu nuevo coche </h1>
+    <div class="episode">
+        <p><video src="/img/Walkaround_A3_PA_Sportback_AU380_1920x1920_1.mp4" width="600" height="550" autoplay loop
+                muted="muted"></video></p>
+        <div class="episode-player">
+            <h2>Nuevo A3 Sportback</h2>
+            <table>
+                <tr>
+                    <th>Año</th>
+                    <td>Enero 2024</td>
+                </tr>
+                <tr>
+                    <th>Combustible</th>
+                    <td>Diésel</td>
+                </tr>
+                <tr>
+                    <th>Kilómetros</th>
+                    <td>85.000 km</td>
+                </tr>
+                <tr>
+                    <th>Motor</th>
+                    <td>1.598 / 116 CV</td>
+                </tr>
+                <tr>
+                    <th>Puertas / Plazas</th>
+                    <td>5 / 5</td>
+                </tr>
+                <tr>
+                    <th>Color</th>
+                    <td>Negro</td>
+                </tr>
+                <tr>
+                    <th>Consumo</th>
+                    <td>4.5 l/ 100 km</td>
+                </tr>
+
+            </table>
+            <h2><a href="/archivos paginas/Solicitatuoferta.html" class="button">Consigelo ya!</a></h2>
+        </div>
+    </div>
+    <h2>Descubre todas nuestras ofertas en coches de segunda mano</h2>
+    </div>
+    <div class="catalogo2">
+        <div class="product2">
+            <img src="/img/golf8r.png" width="350" height="200" alt="Imagen 4">
+            <h2>Volkswagen Golf</h2>
+            <p>2020 | 163.000km | Diésel | Automático</p>
+            <h3>23.990€</h3>
+        </div>
+        <div class="product2">
+            <img src="/img/range.png" width="350" height="200" alt="Imagen 4">
+            <h2>Range Rover Evoque</h2>
+            <p>2017 | 195.000km | Diésel | Automático</p>
+            <h3>15.980€</h3>
+        </div>
+        <div class="product2">
+            <img src="/img/a3.png" width="350" height="200" alt="Imagen 4">
+            <h2>Audi A3 Sportback</h2>
+            <p>2018 | 72.000km | Diésel | Automático</p>
+            <h3>17.790€</h3>
+        </div>
+        <div class="product2">
+            <img src="/img/a220.png" width="350" height="200" alt="Imagen 4">
+            <h2>Mercedes Benz Clase A200</h2>
+            <p>2021 | 44.000km | Diésel | Automático</p>
+            <h3>26.490€</h3>
+        </div>
+
+
+    </div>
+    </div>
+    <div class="text-aling: center;">
+        <img src="/img/Captura de pantalla 2024-05-08 013458.png" width="1510" height="590" />
+
+    </div>
+    <footer style="text-align: center;">
+        <p>&copy; 2024 Importaco.</p>
+    </footer>
+</body>
+
+</html>

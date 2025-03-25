@@ -1,95 +1,104 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
+    <head>
     <meta charset="UTF-8">
-    <title>Portfolio de Maamar Hirech</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
         header {
             text-align: center;
             background-color: #F9F9F9;
             padding: 20px;
         }
-
         header img {
-            width: 200px;
+            width: 150px;
             height: auto;
-            border-radius: 0;
-            float: left;
-            margin-right: 10px;
+            border-radius: 50%;
         }
-
-
-        header h1 {
-            font-size: 30px;
-            display: inline;
-            margin: 0;
-        }
-
-
-        .Navegación {
+        .navegacion {
             display: flex;
-            justify-content: space-evenly;
+            justify-content: center;
             list-style: none;
-            background-color: #F9F9F9;
+            background-color: #000000;
             padding: 10px;
         }
-
-
-        .Navegación li a {
+        .navegacion li {
+            margin: 0 15px;
+        }
+        .navegacion li a {
             text-decoration: none;
-            color: #333;
+            color: white;
             font-size: 18px;
             padding: 5px 10px;
             border-radius: 5px;
         }
-
-
-        .Navegación li a:hover {
-            background-color: #000000;
-            color: #F9F9F9;
+        .navegacion li a:hover {
+            background-color: #9d0101;
         }
-
-
         main {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
-            font-size: 18px;
-            line-height: 1.5;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
         }
-
-
+        .contacto img {
+            width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
         footer {
             text-align: center;
-            font-size: 14px;
-            color: #555;
+            padding: 20px;
+            background: #333;
+            color: white;
             margin-top: 20px;
         }
     </style>
 </head>
-
 <body>
-    <header> <img src="mh.jpg" height="200px" width="200px">
-        <h1>Mi Portfolio</h1>
+    <header>
+        <h1>Actividades</h1>
         <nav>
-            <ul class="Navegación">
-                <li><a href="inicio.html">Inicio</a></li>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="portfoli/inventar.html">Inventem</a></li>
+            <ul class="navegacion">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="/Portfolio.html">Actividades</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <p>Mi nombre es Maamar Hirech</p>
-        <p>Tengo experiencia en la creación de sitios web,soy una persona creativa fijandome en los pequeños detalles
-            para6
-            marcar diferencia. En la barra de navegació tendras disponibles todas las actividades para que te sean de
-            gran ayuda y puedas consultarlas para seguir aprendiendo sobre el temario</p>
+        <img src="mh.jpg" alt="Foto de perfil">
+        <section id="inicio">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy Hirech Maamar, técnico en sistemas microinformáticos y redes. Aquí encontrarás información sobre mis estudios y proyectos.</p>
+        </section>
+        <section id="actividades">
+            <h2>Actividades</h2>
+            <ul>
+                <li>Proyecto de redes informáticas</li>
+                <li>Desarrollo de aplicaciones web</li>
+                <li>Administración de servidores</li>
+            </ul>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            <p>Email: mhirech@inscaparrella.cat</p>
+            <p>Teléfono: +34 678 951 357</p>
+            <p>Ubicación: Lleida, España</p>
+            <img src="contacto.jpg" alt="Imagen de contacto">
+        </section>
     </main>
     <footer>
-        <p>© 2023 Portfolio Maamar Hirech. Todos los derechos reservados.</p>
+        <p>© 2024 Hirech Maamar. Todos los derechos reservados.</p>
     </footer>
 </body>
-
 </html>
